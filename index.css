@@ -1,0 +1,226 @@
+@import url('css/home.css');
+@import url('/css/info.css');
+@import url('/css/chequea.css');
+@import url('css/avisos.css');
+@import url('css/categorias.css');
+@import url('https://fonts.cdnfonts.com/css/bright-aurora');
+
+*{
+    font-family: 'Bright Aurora', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('icons/block.svg');
+    display: flex;
+    flex-direction: column;
+    min-height: 99.8vh;
+}
+
+.PuntoGiro-Navbar{
+    height: 52px;
+    padding: 6px;
+    z-index: 1;
+}
+
+.PuntoGiro-Navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PuntoGiro-Navbar img{
+    height: 48px;
+}
+
+.PuntoGiro-Main{
+    flex:1;
+}
+
+.PuntoGiro-Footer{
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    z-index: 1;
+}
+
+
+.PuntoGiro-Footer img{
+    height: 58px;
+}
+
+.modal-background {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.322);
+    backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .modal{
+    padding: 20px;
+    border: 1px solid #888;
+    width: 75vw;
+    height: 75vh;
+    border-radius: 10px;
+
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .item-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    height: auto;
+}
+
+.item-figura{
+    font-size: xx-large;
+}
+
+.item-descripcion{
+    padding: 10px;
+}
+
+.item-botones{
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    margin-block: 10px;
+}
+
+.cerrar-modal{
+    border: 3px solid  #ac0000;
+    color: #ff5833be;
+    background-color: #8B0000;
+}
+.cerrar-modal:focus,
+.cerrar-modal:hover{
+    background-color: #d10202;
+    box-shadow: 0px 0px 10px 0px #8B0000;
+    border: 3px solid  #8B0000;
+    color: white;
+}
+
+.cerrar-btn {
+    background: none;
+    height: 10%;
+    width: 95%;
+    border: 1px solid darkred;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #721c24;
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    background-color: rgba(139, 0, 0, 0.432);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cerrar-btn:hover{
+    box-shadow: 0px 0px 10px 0px #8b0000;
+    background-color: rgba(139, 0, 0, 0.342);
+}
+
+.alerta-card {
+    position: absolute;
+    width: 80%; /* Adjust width as needed */
+    height: auto;
+    max-width: 500px; /* Set a maximum width */
+    z-index: 1000;
+    bottom: 10%; /* Adjust bottom spacing as needed */
+    right: 15%; /* Adjust right spacing as needed */
+    background-color: rgba(245, 245, 220, 0.712);
+    border: 1px solid beige;
+    color: black;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px beige;
+    border-radius: 10px;
+    animation: slideIn 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-block: 25px;
+    text-align: center;
+}
+
+.alerta-card p{
+    text-align: center;
+    width: 50%;
+}
+
+.alerta-card h1,p,button{
+    margin-block: 15px;
+}
+
+/* Hide the default scrollbar */
+.modal::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+  }
+  
+  /* Handle */
+  .modal::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Color of the thumb */
+    border-radius: 3px; /* Rounded corners */
+  }
+  
+  /* Track */
+  .modal::-webkit-scrollbar-track {
+    background-color: transparent; /* Color of the track */
+  }
+  
+  /* Handle on hover */
+  .modal::-webkit-scrollbar-thumb:hover {
+    background-color: transparent; /* Darker color on hover */
+  }
+  
+
+@media (max-width: 768px) {
+    /* Add additional styles for smaller screens if needed */
+    .alerta-card {
+        width: 90%;
+        right: 1%;
+        height: auto;
+    }
+
+    .item-descripcion{
+        font-size: small;
+    }
+
+    .item-botones{
+        flex-wrap: wrap;
+    }
+}
+
