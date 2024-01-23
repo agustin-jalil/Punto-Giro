@@ -19,7 +19,7 @@
 
 .PuntoGiro-Section-Home section:first-child:hover {
     background-color: #32CD32;
-    background-image: url('/icons/tile_background.png');
+    background-image: url('tile_background.png');
     border: #006400 3px solid;
     box-shadow: 0px 0px 10px 5px #006400;
     -webkit-box-shadow: 0px 0px 10px 5px #006400;
@@ -33,7 +33,7 @@
 
 .PuntoGiro-Section-Home section:nth-child(2):hover {
     background-color: #FFFF00;
-    background-image: url('/icons/tile_background2.png');
+    background-image: url('tile_background2.png');
     border: #ffde21 3px solid;
     box-shadow: 0px 0px 10px 5px #ffde21;
     -webkit-box-shadow: 0px 0px 10px 5px #ffde21;
@@ -48,7 +48,7 @@
 
 .PuntoGiro-Section-Home section:nth-child(3):hover {
     background-color: #9FDAFF;
-    background-image: url('/icons/tile_background4.png');
+    background-image: url('tile_background4.png');
     border: #67ADF3 3px solid;
     box-shadow: 0px 0px 10px 5px #67ADF3;
     -webkit-box-shadow: 0px 0px 10px 5px #67ADF3;
@@ -63,7 +63,7 @@
 
 .PuntoGiro-Section-Home section:last-child:hover {
     background-color: #808080;
-    background-image: url('/icons/tile_background3.png');
+    background-image: url('tile_background3.png');
     border: #414141 3px solid;
     box-shadow: 0px 0px 10px 5px #414141;
     -webkit-box-shadow: 0px 0px 10px 5px #414141;
