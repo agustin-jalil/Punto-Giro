@@ -11,8 +11,8 @@
 <body>
     <header class="PuntoGiro-Navbar" style="z-index: 1000;">
         <nav>
-            <a href=""><img src="/logo-giro.svg" alt=""></a>
-            <a href=""><img src="/iso.svg" alt=""></a>
+            <a href=""><img src="logo-giro.svg" alt=""></a>
+            <a href=""><img src="iso.svg" alt=""></a>
         </nav>
     </header>
     <main id="map"></main>
@@ -55,14 +55,14 @@
 
     </style>
     <footer class="PuntoGiro-Footer" style="z-index: 1000;">
-        <a href="https://www.instagram.com/"><img src="/instagram.svg" alt="Instagram"></a>
-        <a href="https://www.youtube.com/"><img src="/facebook.svg" alt="YouTube"></a>
-        <a href="https://www.facebook.com/"><img src="/youtube.svg" alt="Facebook"></a>
-        <a href="https://www.google.com/"><img src="/email.svg" alt="Google"></a>
+        <a href="https://www.instagram.com/"><img src="instagram.svg" alt="Instagram"></a>
+        <a href="https://www.youtube.com/"><img src="facebook.svg" alt="YouTube"></a>
+        <a href="https://www.facebook.com/"><img src="youtube.svg" alt="Facebook"></a>
+        <a href="https://www.google.com/"><img src="email.svg" alt="Google"></a>
     </footer>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="/index.js"></script>
+    <script src="index.js"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -100,7 +100,7 @@
                     '<h1>Mapa Giro</h1>' +
                     '<p>Clickea en los iconos de punto giro para estar informado de lo que pasa en tu barrio</p>' +
                     message +
-                    '<button type="button" class="cerrar-btn" onclick="this.parentNode.style.animation = \'fadeOut 0.7s ease-in-out\'; setTimeout(() => this.parentNode.remove(), 500)"><img src="/close.svg" alt="Close"></button></div>';
+                    '<button type="button" class="cerrar-btn" onclick="this.parentNode.style.animation = \'fadeOut 0.7s ease-in-out\'; setTimeout(() => this.parentNode.remove(), 500)"><img src="close.svg" alt="Close"></button></div>';
 
                 document.getElementById('map').appendChild(alertContainer);
             }
