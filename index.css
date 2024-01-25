@@ -21,7 +21,6 @@ body{
 .PuntoGiro-Navbar{
     height: 52px;
     padding: 6px;
-    z-index: 1;
 }
 
 .PuntoGiro-Navbar nav{
@@ -44,7 +43,6 @@ body{
     align-items: center;
     justify-content: space-around;
     width: auto;
-    z-index: 1;
 }
 
 
