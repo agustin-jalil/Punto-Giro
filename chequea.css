@@ -133,40 +133,6 @@
     cursor: pointer;
 }
 
-.verde{
-    background-color: rgba(209, 253, 209, 0.247);
-    border: 2px solid #32CD32;
-}
-.verde:hover{
-    box-shadow: 0px 0px 10px 0px #32CD32;
-    border: 2px solid  #32CD32;
-}
-.amarillo{
-    background-color: #ffff002a;
-    border: 2px solid #ffde21;
-}
-.amarillo:hover{
-    box-shadow: 0px 0px 10px 0px #ffde21;
-    border: 2px solid #ffde21;
-}
-.celeste{
-    background-color: #9fdaff3b;
-    border: 2px solid #9FDAFF;
-}
-.celeste:hover{
-    box-shadow: 0px 0px 10px 0px #9FDAFF;
-    border: 2px solid  #9FDAFF;
-}
-
-.grises{
-    background-color: #80808033;
-    border: 2px solid #808080;
-}
-.grises:hover{
-    box-shadow: 0px 0px 10px 0px #808080;
-    border: 2px solid  #808080;
-}
-
 .photo-grid img{
 width: 100%;
 height: auto;
