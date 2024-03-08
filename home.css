@@ -11,10 +11,10 @@
     border-radius: 10px;
     transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
-
+/* 
 .PuntoGiro-Section-Home section:first-child {
-    background-color: #006400;
-    border: #006400 3px solid;
+    background-color: #006400da;
+    border: #004400 3px solid;
 }
 
 .PuntoGiro-Section-Home section:first-child:hover {
@@ -27,49 +27,49 @@
 }
 
 .PuntoGiro-Section-Home section:nth-child(2) {
-    background-color: #ffde21;
-    border: #ffde21 3px solid;
+    background-color: #ffde21d0;
+    border: #ffd900 3px solid;
 }
 
 .PuntoGiro-Section-Home section:nth-child(2):hover {
-    background-color: #FFFF00;
+    background-color: #ffff00d0;
     background-image: url('tile_background2.png');
-    border: #ffde21 3px solid;
-    box-shadow: 0px 0px 10px 5px #ffde21;
-    -webkit-box-shadow: 0px 0px 10px 5px #ffde21;
-    -moz-box-shadow: 0px 0px 10px 5px #ffde21;
+    border: #fad400 3px solid;
+    box-shadow: 0px 0px 10px 3px #ffde21;
+    -webkit-box-shadow: 0px 0px 10px 3px #ffde21;
+    -moz-box-shadow: 0px 0px 10px 3px #ffde21;
     
 }
 
 .PuntoGiro-Section-Home section:nth-child(3) {
-    background-color: #67ADF3;
-    border: #67ADF3 3px solid;
+    background-color: #67adf3e5;
+    border: #2690fa 3px solid;
 }
 
 .PuntoGiro-Section-Home section:nth-child(3):hover {
     background-color: #9FDAFF;
     background-image: url('tile_background4.png');
     border: #67ADF3 3px solid;
-    box-shadow: 0px 0px 10px 5px #67ADF3;
-    -webkit-box-shadow: 0px 0px 10px 5px #67ADF3;
-    -moz-box-shadow: 0px 0px 10px 5px #67ADF3;
+    box-shadow: 0px 0px 10px 3px #67ADF3;
+    -webkit-box-shadow: 0px 0px 10px 3px #67ADF3;
+    -moz-box-shadow: 0px 0px 10px 3px #67ADF3;
 }
 
-.PuntoGiro-Section-Home section:last-child {
-    background-color: #414141;
-    border: #414141 3px solid;
-     /* Applied transition to background-color property */
-}
+*/
 
-.PuntoGiro-Section-Home section:last-child:hover {
+.PuntoGiro-Section-Home .gris:hover {
     background-color: #808080;
     background-image: url('tile_background3.png');
     border: #414141 3px solid;
-    box-shadow: 0px 0px 10px 5px #414141;
-    -webkit-box-shadow: 0px 0px 10px 5px #414141;
-    -moz-box-shadow: 0px 0px 10px 5px #414141;/* Applied transition to background-color property */
+    box-shadow: 0px 0px 10px 3px #414141;
+    -webkit-box-shadow: 0px 0px 10px 3px #414141;
+    -moz-box-shadow: 0px 0px 10px 3px #414141;
+}   
+    
+.PuntoGiro-Section-Home .gris {
+    background-color: #414141d5;
+    border: #303030 3px solid;
 }
-
 
 .PuntoGiro-Section-Home a{
     height: 100%;
@@ -77,75 +77,145 @@
     display: flex;
     text-decoration: none;
     color:white;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.PuntoGiro-Section-Home div{
-    width: 20%;
+
+.PuntoGiro-Footer-Secundario{
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.PuntoGiro-Section-Home div:nth-child(2){
-    height: auto;
-    width: 20%;
-}
-
-.PuntoGiro-Section-Home div:last-child{
-    width: 60%;
-    padding: 5px;
-    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: auto;
+    background-color: rgba(245, 245, 203, 0.774);
+    border: 1px solid rgb(248, 248, 150);
+    box-shadow: 0px 0px 10px 0px rgb(248, 248, 150);
+    border-radius: 10px;
+    height: 75vh;
+    backdrop-filter: blur(25px);
+    padding: 1rem;
 }
 
 .PuntoGiro-Section-Home img{
     height: 56px;
 }
 
-.PuntoGiro-Section-Home section:nth-child(2) h1 {
-    color: black;
-}
-
-.PuntoGiro-Section-Home section:nth-child(2) p {
-    color: black;
-}
-
-.PuntoGiro-Section-Home h1 {
-    font-size: small;
-}
-
 .PuntoGiro-Section-Home p{
     font-size: xx-small;
 }
 
+@media (max-width: 424.98px) {
 
+    .PuntoGiro-Footer-Secundario{
+        display: none;
+    }
 
-@media (max-width: 425px) {
+    .PuntoGiro-Section-Home {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: (1fr);
+        padding: 20px; /* Padding shorthand */
+        height: auto;
+        margin: auto; /* Centering using margin auto */
+        max-width: 90vw; /* Maximum width for centering */
+    }
+
     .PuntoGiro-Section-Home section {
-        height: 18vh;
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .PuntoGiro-Section-Home a{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        color:white;
+        margin: 10px;
+    }
+
+    .PuntoGiro-Footer{
+        height: 62px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: auto;
+    }
+
+    .PuntoGiro-Section-Home h1 {
+        font-size: 14px;
     }
 }
-@media (min-width: 425px) and (max-width: 1023px) {
-    .PuntoGiro-Section-Home h1 {
-        font-size: x-large;
+@media (min-width: 425px) and (max-width: 1023.98px) {
+    .PuntoGiro-Footer-Secundario{
+        display: none;
+    }    
+
+    .PuntoGiro-Section-Home {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: (1fr);
+        height: auto; /* Reduced height */
+        padding: 20px; /* Padding shorthand */
+        margin: auto; /* Centering using margin auto */
+        max-width: 85vw; /* Maximum width for centering */
     }
     
-    .PuntoGiro-Section-Home p{
-        font-size: small;
+    .PuntoGiro-Section-Home a{
+        height: 100%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        color:white;
+        
     }
-    
+
     .PuntoGiro-Section-Home section {
-        height: 18vh;
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .PuntoGiro-Footer{
+        height: 62px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: auto;
+    }
+
+    .PuntoGiro-Section-Home h1 {
+        font-size: large;
     }
 }
 
 @media (min-width: 1024px) {
+    .PuntoGiro-Footer{
+        display: none;
+    }
+
+    .PuntoGiro-Main {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
     .PuntoGiro-Section-Home {
         list-style-type: none;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px 40px;
-        height: 85vh;
+        grid-template-columns: repeat(3, 1fr);
+        height: 75vh;
         padding-inline: 20px;/* Setting a height to the container */
+        width: 75vw;
     }
 
     .PuntoGiro-Section-Home a{
@@ -157,31 +227,24 @@
         color:white;
     }
     
-    .PuntoGiro-Section-Home div{
-        height: 40%;
+    .PuntoGiro-Section-Home a{
+        height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
-    }
-    
-    .PuntoGiro-Section-Home div:nth-child(2){
-        height: 10%;
-        width: auto;
-    }
-    
-    .PuntoGiro-Section-Home div:last-child{
-        height: 40%;
-        padding: 10px;
-        width: auto;
+        justify-content: space-evenly;
         text-align: center;
     }
-
+    
+    .PuntoGiro-Footer{
+        display: none;
+    }
+    
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-    .PuntoGiro-Section-Home h1 {
-        font-size: x-large;
+    .PuntoGiro-Footer{
+        display: none;
     }
     
     .PuntoGiro-Section-Home p{
@@ -194,8 +257,8 @@
 }
 
 @media (min-width: 1440px) {
-    .PuntoGiro-Section-Home h1 {
-        font-size: xxx-large;
+    .PuntoGiro-Footer{
+        display: none;
     }
     
     .PuntoGiro-Section-Home p{
@@ -205,4 +268,12 @@
     .PuntoGiro-Section-Home img{
         height: 86px;
     }
+}
+
+.blur{
+    backdrop-filter: blur(50px);
+}
+
+.img-shadow:hover {
+    transform: scale(1.1);
 }

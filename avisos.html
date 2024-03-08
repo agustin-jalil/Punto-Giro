@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,55 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Punto Giro</title>
-    <!-- Include Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <body>
     <header class="PuntoGiro-Navbar" style="z-index: 1000;">
         <nav>
-            <a href=""><img src="logo-giro.svg" alt=""></a>
+            <a href="index.html"><img src="logo-giro.svg" alt=""></a>
             <a href=""><img src="iso.svg" alt=""></a>
         </nav>
     </header>
-    <main id="map"></main>
-    <style>
-
-        .leaflet-control-zoom-in,
-        .leaflet-control-zoom-out {
-            display: none !important;
-        }
-
-        #map {
-            height: 86vh;
-            width: 99vw;
-            margin: 0 auto;
-            border-radius: 10px;
-            position: relative; 
-        }
-
-        @keyframes slideIn {
-            from {
-                transform: translateY(500px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        @keyframes fadeOut {
-            from {
-                opacity: 1;
-                transform: translateY(0);
-            }
-            to {
-                opacity: 0;
-                transform: translateY(500px);
-            }
-        }
-
-    </style>
+    <main>
+        <div style="display: flex; align-items: center; justify-content: center; height: 90vh;">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1qXDHdhYv2n-afJgYB7Ui8f0dvsMlu4DS&ehbc=2E312F" width="93%" height="100%" style="border-radius: 10px; border: 1px solid beige; box-shadow: 0px 0px 10px 0px beige;"></iframe>
+        </div>
+    </main>
+    
     <footer class="PuntoGiro-Footer" style="z-index: 1000;">
         <a href="https://www.instagram.com/"><img src="instagram.svg" alt="Instagram"></a>
         <a href="https://www.youtube.com/"><img src="facebook.svg" alt="YouTube"></a>
@@ -61,52 +27,6 @@
         <a href="https://www.google.com/"><img src="email.svg" alt="Google"></a>
     </footer>
 
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="index.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var position = [-28.468964, -65.779018];
-
-            var map = L.map('map').setView(position, 13);
-
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: ''
-            }).addTo(map);
-
-            // Custom marker icon
-            var customIcon = L.icon({
-                iconUrl: 'logo-giro.svg', // Add the path to your custom pointer image
-                iconSize: [32, 32], // Adjust the size of the icon
-                iconAnchor: [16, 32], // Adjust the anchor point of the icon
-                popupAnchor: [0, -32] // Adjust the popup anchor point
-            });
-
-            var popupContent = '<a href="https://www.youtube.com/watch?v=C0i7rOoAvE8&ab_channel=CatamarcaCapital" target="_blank">Ver Video</a>';
-            var marker = L.marker(position, { icon: customIcon }).addTo(map);
-            
-            
-            // Bind Popup with additional options
-            marker.bindPopup(popupContent, {
-                minWidth: 200,
-                maxWidth: 400,
-                autoPan: true,
-                closeButton: true
-            });
-
-            function showAlert(message) {
-                var alertContainer = document.createElement('div');
-                alertContainer.innerHTML = '<div class="alerta-card">' +
-                    '<h1>Mapa Giro</h1>' +
-                    '<p>Clickea en los iconos de punto giro para estar informado de lo que pasa en tu barrio</p>' +
-                    message +
-                    '<button type="button" class="cerrar-btn" onclick="this.parentNode.style.animation = \'fadeOut 0.7s ease-in-out\'; setTimeout(() => this.parentNode.remove(), 500)"><img src="close.svg" alt="Close"></button></div>';
-
-                document.getElementById('map').appendChild(alertContainer);
-            }
-
-            showAlert('');
-        });
-    </script>
 </body>
 </html>

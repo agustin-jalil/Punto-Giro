@@ -13,36 +13,36 @@
                 <a href=""><img src="iso.svg" alt=""></a>
             </nav>
         </header>
-        <main class="PuntoGiro-Main">
+        <main class="PuntoGiro-Main-chequea">
             <div class="PuntoGiro-Chequea">
                 <input type="text" placeholder="buscar">
                 <section class="button-section">
-                    <button class="btn-verde">Secos</button>
-                    <button class="btn-amarillo">Plasticos</button>
-                    <button class="btn-celeste">Vidrio / Metal</button>
-                    <button class="btn-gris">Papel / Carton</button>
+                    <button class="btn btn-verde">Secos</button>
+                    <button class="btn btn-amarillo">Plasticos</button>
+                    <button class="btn btn-celeste">Vidrio / Metal</button>
+                    <button class="btn btn-gris">Papel / Carton</button>
                 </section>
                 <div class="photo-grid">
                         <figure class="verde openModalBtn">
                             <img src="aceitegiro.png" alt="">
                             <figcaption><u>Aceite</u></figcaption>
                         </figure>
-                        <figure class="amarillo">
+                        <figure class="amarillo openModalBtn-amarillo">
                             <img src="aceitegiro.png" alt="">
                             <figcaption><u>Aceite</u></figcaption>
                         </figure>
-                        <figure class="celeste">
+                        <figure class="celeste openModalBtn-celeste">
                             <img src="aceitegiro.png" alt="">
                             <figcaption><u>Aceite</u></figcaption>
                         </figure>
-                        <figure class="gris">
+                        <figure class="grises openModalBtn-gris">
                             <img src="aceitegiro.png" alt="">
                             <figcaption><u>Aceite</u></figcaption>
                         </figure>
                 </div>
 
             <div class="modal-background">
-                <div class="modal verde" style="overflow-y: auto; border: 3px solid #006400;">
+                <div class="modal verde" id="secos" style="overflow-y: auto; border: 3px solid #006400;">
                     <div class="item-container">
                         <div class="item-figura">
                             <figure>
@@ -52,7 +52,6 @@
                             <svg width="64px" height="64px" viewBox="-6.4 -6.4 76.80 76.80" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd"> <g transform="matrix(-1 0 0 1 46.523 13)"> <path fill="#80D25B" d="M15.435675,31 C20.301337,31 25,26.2163013 25,21.3131203 C25,16.4099394 17.1226939,3 17.1226939,3 C17.1226939,3 7.62882483,15.3918301 7.05405343,20.6592359 C6.47928203,25.9266417 10.570013,31 15.435675,31 Z" transform="rotate(36 16 17)"></path> <path stroke="#22BA8E" stroke-linecap="round" stroke-width="2" d="M22,10 C22,10 12.8859478,15.6488685 9.57160406,26.0527799 C8.71883296,28.7296763 7.43565096,30.6395938 6,32"></path> <polyline stroke="#22BA8E" stroke-linecap="round" stroke-width="2" points="17 24 10.935 23.715 8 18"></polyline> <polyline stroke="#22BA8E" stroke-linecap="round" stroke-width="2" points="19 18 14.459 17.197 13 14"></polyline> </g> <path stroke="#5B68C0" stroke-width="6" d="M8,32 C8,45.254834 18.745166,56 32,56 L32,56 C38.627417,56 44.627417,53.3137085 48.9705627,48.9705627 M56,32 C56,18.745166 45.254834,8 32,8 C25.372583,8 19.372583,10.6862915 15.0294373,15.0294373"></path> <polygon fill="#80D25B" points="8 19 15 33 1 33"></polygon> <polygon fill="#80D25B" points="56 46 49 32 63 32"></polygon> </g> </g></svg>
                         </div>
                         <div class="item-descripcion">
-                            <menu>
                                 ¿De que está hecho?
                                 Compuesto orgánico líquido obtenido de fuentes vegetales.
 
@@ -61,34 +60,180 @@
 
                                 ¿Cuál es el destino?
                                 La inadecuada gestión de este material puede ocasionar obturación de cañerías, contaminación y degradación de cursos de agua y contaminación del suelo por derrames. El aceite que recibimos en los puntos móviles es gestionado por Emprendedores Sostenibles locales, que lo reciclan transformándolo en jabones. A mayor escala, el aceite que se recolecta de los gastronómicos es gestionado por un empresa de alcance nacional especializada para su transformación en biocombustible.
-                            </menu>
                         </div>
                         <div class="item-botones">
-                            <button class="btn-verde">reciclar</button>
+                            <a href="https://solicitudes-giro.cc.gob.ar/" class=" btn btn-verde botones">reciclar</a>
                             <span class="close">
-                                <button class="cerrar-modal">cerrar</button>
+                                <button class="btn cerrar-modal">cerrar</button>
                             </span>
                         </div>
                     </div>
                   </div>
                 </div>
-                <script>
-                    const openModalBtn = document.querySelector('.openModalBtn');
-                    const modal = document.querySelector('.modal-background');
-                    const closeModalBtn = document.querySelector('.close');
-                  
-                    function openModal() {
-                      modal.style.display = 'flex';
-                    }
-                  
-                    function closeModal() {
-                      modal.style.display = 'none';
-                    }
-                  
-                    openModalBtn.addEventListener('click', openModal);
-                    closeModalBtn.addEventListener('click', closeModal);
-                </script>
             </div>
+
+            <div class="modal-background-amarillo">
+                <div class="modal amarillo" id="plasticos">
+                    <div class="item-container">
+                        <div class="item-figura">
+                            <figure>
+                                <img src="aceitegiro.png" alt="">
+                                <figcaption><u>Aceite</u></figcaption>
+                            </figure>
+                            <svg width="64px" height="64px" viewBox="-6.4 -6.4 76.80 76.80" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd"> <g transform="matrix(-1 0 0 1 46.523 13)"> <path fill="#80D25B" d="M15.435675,31 C20.301337,31 25,26.2163013 25,21.3131203 C25,16.4099394 17.1226939,3 17.1226939,3 C17.1226939,3 7.62882483,15.3918301 7.05405343,20.6592359 C6.47928203,25.9266417 10.570013,31 15.435675,31 Z" transform="rotate(36 16 17)"></path> <path stroke="#22BA8E" stroke-linecap="round" stroke-width="2" d="M22,10 C22,10 12.8859478,15.6488685 9.57160406,26.0527799 C8.71883296,28.7296763 7.43565096,30.6395938 6,32"></path> <polyline stroke="#22BA8E" stroke-linecap="round" stroke-width="2" points="17 24 10.935 23.715 8 18"></polyline> <polyline stroke="#22BA8E" stroke-linecap="round" stroke-width="2" points="19 18 14.459 17.197 13 14"></polyline> </g> <path stroke="#5B68C0" stroke-width="6" d="M8,32 C8,45.254834 18.745166,56 32,56 L32,56 C38.627417,56 44.627417,53.3137085 48.9705627,48.9705627 M56,32 C56,18.745166 45.254834,8 32,8 C25.372583,8 19.372583,10.6862915 15.0294373,15.0294373"></path> <polygon fill="#80D25B" points="8 19 15 33 1 33"></polygon> <polygon fill="#80D25B" points="56 46 49 32 63 32"></polygon> </g> </g></svg>
+                        </div>
+                        <div class="item-descripcion">
+                                ¿De que está hecho?
+                                Compuesto orgánico líquido obtenido de fuentes vegetales.
+
+                                ¿Dónde lo llevo?
+                                Colocar dentro de una botella limpia, debe estar frío para evitar que se deforme. Acercalo a los puntos móviles de GIRO o al PUNTO GIRO . Recibimos hasta 2 litros por persona. Si sos generador gastronómico y generas mayores cantidades de aceite vegetal usado, contactanos a girocatamarcacapital@gmail.com para sumarte al programa de "Comercios Responsables" y al circuito de recolección especial para gastronómicos.
+
+                                ¿Cuál es el destino?
+                                La inadecuada gestión de este material puede ocasionar obturación de cañerías, contaminación y degradación de cursos de agua y contaminación del suelo por derrames. El aceite que recibimos en los puntos móviles es gestionado por Emprendedores Sostenibles locales, que lo reciclan transformándolo en jabones. A mayor escala, el aceite que se recolecta de los gastronómicos es gestionado por un empresa de alcance nacional especializada para su transformación en biocombustible.
+                        </div>
+                        <div class="item-botones">
+                            <a href="https://solicitudes-giro.cc.gob.ar/" class="btn btn-amarillo botones">reciclar</a>
+                            <span class="close-amarillo">
+                                <button class=" btn cerrar-modal">cerrar</button>
+                            </span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal-background-celeste">
+                <div class="modal celeste" id="vidrios">
+                    <div class="item-container">
+                        <div class="item-figura">
+                            <figure>
+                                <img src="aceitegiro.png" alt="">
+                                <figcaption><u>Aceite</u></figcaption>
+                            </figure>
+                            <svg width="64px" height="64px" viewBox="-6.4 -6.4 76.80 76.80" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd"> <g transform="matrix(-1 0 0 1 46.523 13)"> <path fill="#80D25B" d="M15.435675,31 C20.301337,31 25,26.2163013 25,21.3131203 C25,16.4099394 17.1226939,3 17.1226939,3 C17.1226939,3 7.62882483,15.3918301 7.05405343,20.6592359 C6.47928203,25.9266417 10.570013,31 15.435675,31 Z" transform="rotate(36 16 17)"></path> <path stroke="#22BA8E" stroke-linecap="round" stroke-width="2" d="M22,10 C22,10 12.8859478,15.6488685 9.57160406,26.0527799 C8.71883296,28.7296763 7.43565096,30.6395938 6,32"></path> <polyline stroke="#22BA8E" stroke-linecap="round" stroke-width="2" points="17 24 10.935 23.715 8 18"></polyline> <polyline stroke="#22BA8E" stroke-linecap="round" stroke-width="2" points="19 18 14.459 17.197 13 14"></polyline> </g> <path stroke="#5B68C0" stroke-width="6" d="M8,32 C8,45.254834 18.745166,56 32,56 L32,56 C38.627417,56 44.627417,53.3137085 48.9705627,48.9705627 M56,32 C56,18.745166 45.254834,8 32,8 C25.372583,8 19.372583,10.6862915 15.0294373,15.0294373"></path> <polygon fill="#80D25B" points="8 19 15 33 1 33"></polygon> <polygon fill="#80D25B" points="56 46 49 32 63 32"></polygon> </g> </g></svg>
+                        </div>
+                        <div class="item-descripcion">
+                                ¿De que está hecho?
+                                Compuesto orgánico líquido obtenido de fuentes vegetales.
+
+                                ¿Dónde lo llevo?
+                                Colocar dentro de una botella limpia, debe estar frío para evitar que se deforme. Acercalo a los puntos móviles de GIRO o al PUNTO GIRO . Recibimos hasta 2 litros por persona. Si sos generador gastronómico y generas mayores cantidades de aceite vegetal usado, contactanos a girocatamarcacapital@gmail.com para sumarte al programa de "Comercios Responsables" y al circuito de recolección especial para gastronómicos.
+
+                                ¿Cuál es el destino?
+                                La inadecuada gestión de este material puede ocasionar obturación de cañerías, contaminación y degradación de cursos de agua y contaminación del suelo por derrames. El aceite que recibimos en los puntos móviles es gestionado por Emprendedores Sostenibles locales, que lo reciclan transformándolo en jabones. A mayor escala, el aceite que se recolecta de los gastronómicos es gestionado por un empresa de alcance nacional especializada para su transformación en biocombustible.
+                        </div>
+                        <div class="item-botones">
+                            <a href="https://solicitudes-giro.cc.gob.ar/" class="btn btn-celeste botones">reciclar</a>
+                            <span class="close-celeste">
+                                <button class="btn botones cerrar-modal">cerrar</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal-background-gris">
+                <div class="modal gris" id="papeles">
+                    <div class="item-container">
+                        <div class="item-figura">
+                            <figure>
+                                <img src="aceitegiro.png" alt="">
+                                <figcaption><u>Aceite</u></figcaption>
+                            </figure>
+                            <svg width="64px" height="64px" viewBox="-6.4 -6.4 76.80 76.80" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd"> <g transform="matrix(-1 0 0 1 46.523 13)"> <path fill="#80D25B" d="M15.435675,31 C20.301337,31 25,26.2163013 25,21.3131203 C25,16.4099394 17.1226939,3 17.1226939,3 C17.1226939,3 7.62882483,15.3918301 7.05405343,20.6592359 C6.47928203,25.9266417 10.570013,31 15.435675,31 Z" transform="rotate(36 16 17)"></path> <path stroke="#22BA8E" stroke-linecap="round" stroke-width="2" d="M22,10 C22,10 12.8859478,15.6488685 9.57160406,26.0527799 C8.71883296,28.7296763 7.43565096,30.6395938 6,32"></path> <polyline stroke="#22BA8E" stroke-linecap="round" stroke-width="2" points="17 24 10.935 23.715 8 18"></polyline> <polyline stroke="#22BA8E" stroke-linecap="round" stroke-width="2" points="19 18 14.459 17.197 13 14"></polyline> </g> <path stroke="#5B68C0" stroke-width="6" d="M8,32 C8,45.254834 18.745166,56 32,56 L32,56 C38.627417,56 44.627417,53.3137085 48.9705627,48.9705627 M56,32 C56,18.745166 45.254834,8 32,8 C25.372583,8 19.372583,10.6862915 15.0294373,15.0294373"></path> <polygon fill="#80D25B" points="8 19 15 33 1 33"></polygon> <polygon fill="#80D25B" points="56 46 49 32 63 32"></polygon> </g> </g></svg>
+                        </div>
+                        <div class="item-descripcion">
+                                ¿De que está hecho?
+                                Compuesto orgánico líquido obtenido de fuentes vegetales.
+
+                                ¿Dónde lo llevo?
+                                Colocar dentro de una botella limpia, debe estar frío para evitar que se deforme. Acercalo a los puntos móviles de GIRO o al PUNTO GIRO . Recibimos hasta 2 litros por persona. Si sos generador gastronómico y generas mayores cantidades de aceite vegetal usado, contactanos a girocatamarcacapital@gmail.com para sumarte al programa de "Comercios Responsables" y al circuito de recolección especial para gastronómicos.
+
+                                ¿Cuál es el destino?
+                                La inadecuada gestión de este material puede ocasionar obturación de cañerías, contaminación y degradación de cursos de agua y contaminación del suelo por derrames. El aceite que recibimos en los puntos móviles es gestionado por Emprendedores Sostenibles locales, que lo reciclan transformándolo en jabones. A mayor escala, el aceite que se recolecta de los gastronómicos es gestionado por un empresa de alcance nacional especializada para su transformación en biocombustible.
+                        </div>
+                        <div class="item-botones">
+                            <a href="https://solicitudes-giro.cc.gob.ar/" class="btn btn-gris botones">reciclar</a>
+                            <span class="close-gris">
+                                <button class="btn cerrar-modal">cerrar</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                const openModalBtn = document.querySelectorAll('.openModalBtn');
+                const modal = document.querySelector('.modal-background');
+                const closeModalBtn = document.querySelector('.close');
+                const openModalBtnAmarillo = document.querySelectorAll('.openModalBtn-amarillo');
+                const modalamarillo = document.querySelector('.modal-background-amarillo');
+                const closeModalBtnAmarillo = document.querySelector('.close-amarillo');
+                const openModalBtnCeleste = document.querySelectorAll('.openModalBtn-celeste');
+                const modalCeleste = document.querySelector('.modal-background-celeste');
+                const closeModalBtnCeleste = document.querySelector('.close-celeste');
+                const openModalBtnGris = document.querySelectorAll('.openModalBtn-gris');
+                const modalGris = document.querySelector('.modal-background-gris');
+                const closeModalBtnGris = document.querySelector('.close-gris');
+            
+                function openModal() {
+                    modal.style.display = 'flex';
+                }
+            
+                function closeModal() {
+                    modal.style.display = 'none';
+                }
+            
+                function openModalAmarillo() {
+                    modalamarillo.style.display = 'flex';
+                }
+            
+                function closeModalAmarillo() {
+                    modalamarillo.style.display = 'none';
+                }
+            
+                openModalBtn.forEach(btn => {
+                    btn.addEventListener('click', openModal);
+                });
+            
+                closeModalBtn.addEventListener('click', closeModal);
+            
+                openModalBtnAmarillo.forEach(btn => {
+                    btn.addEventListener('click', openModalAmarillo);
+                });
+            
+                closeModalBtnAmarillo.addEventListener('click', closeModalAmarillo);
+
+                
+                function openModalCeleste() {
+                    modalCeleste.style.display = 'flex';
+                }
+
+                function closeModalCeleste() {
+                    modalCeleste.style.display = 'none';
+                }
+
+                function openModalGris() {
+                    modalGris.style.display = 'flex';
+                }
+
+                function closeModalGris() {
+                    modalGris.style.display = 'none';
+                }
+
+                openModalBtnCeleste.forEach(btn => {
+                    btn.addEventListener('click', openModalCeleste);
+                });
+
+                closeModalBtnCeleste.addEventListener('click', closeModalCeleste);
+
+                openModalBtnGris.forEach(btn => {
+                    btn.addEventListener('click', openModalGris);
+                });
+
+                closeModalBtnGris.addEventListener('click', closeModalGris);
+            </script>
+            
         </main>
         <footer class="PuntoGiro-Footer">
             <a href="https://www.instagram.com/"><img src="instagram.svg" alt="Instagram"></a>
