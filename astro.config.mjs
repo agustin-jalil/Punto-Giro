@@ -4,7 +4,9 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react()],
-  site: 'https://PuntoGiro.gob.cc',
+  integrations: [
+    react()
+  ],
+  site: 'https://agustin-jalil.github.io/Punto-Giro/',
   base: 'Punto-Giro',
 });
