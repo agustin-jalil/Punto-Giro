@@ -1,0 +1,119 @@
+.PuntoGiro-Section-Home {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    height: auto; /* Setting a height to the container */
+}
+
+.PuntoGiro-Section-Home section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.PuntoGiro-Footer-Aside{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.PuntoGiro-Footer-Secundario{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(245, 245, 203, 0.774);
+    border: 1px solid rgb(253, 253, 109);
+    box-shadow: 0px 0px 10px 0px rgb(248, 248, 150);
+    border-radius: 10px;
+    height: 100%;
+    backdrop-filter: blur(25px);
+    padding-inline: 6px;
+}
+
+.PuntoGiro-Section-Home img{
+    height: 48px;
+}
+
+.PuntoGiro-Section-Home p{
+    font-size: xx-small;
+}
+
+.blur{
+    backdrop-filter: blur(50px);
+}
+
+.img-shadow:hover {
+    transform: scale(1.1);
+}
+
+.link-home{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.PuntoGiro-Main {
+    display: flex;
+    height: auto;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+@media (max-width: 1023.98px) {
+    .PuntoGiro-Footer-Secundario{
+        display: none;
+    }
+
+    .PuntoGiro-Section-Home {
+        grid-template-columns: (1fr);
+        width: 100%
+    }
+
+    .PuntoGiro-Footer-Aside{
+        display: none;
+    }
+
+    .PuntoGiro-Section-Home h1 {
+        font-size: 14px;
+    }
+
+    .link-home{
+        padding: 1rem;
+    }
+
+    .PuntoGiro-Footer{
+        display: flex;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .PuntoGiro-Section-Home {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Add one column that occupies all the rows */
+        width: 90%;
+        height: 80vh;
+        font-size: small;
+        padding-inline-end: 10px;
+    }
+    
+    .PuntoGiro-Section-Home p{
+        font-size: medium;
+    }
+    
+    .PuntoGiro-Section-Home img{
+        height: 72px;
+    }
+}
+
+  

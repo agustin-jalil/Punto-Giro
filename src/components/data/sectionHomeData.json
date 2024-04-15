@@ -1,0 +1,63 @@
+{
+    "sectionHomeData":
+    [
+        {
+            "backgroundColor": "verde",
+            "linkUrl": "https://solicitudes-giro.cc.gob.ar/",
+            "imageUrl": "/src/assets/files/planet.svg",
+            "title": "Solicitá Material para Reciclar",
+            "textColor": "black"
+        },
+        {
+            "backgroundColor": "amarillo",
+            "linkUrl": "/buscador",
+            "imageUrl": "/src/assets/files/idea.svg",
+            "title": "Buscador de Materiales",
+            "textColor": "black"
+        },
+        {
+            "backgroundColor": "celeste",
+            "linkUrl": "contenedores",
+            "imageUrl": "/src/assets/files/contenedoresypuntos.svg",
+            "title": "Contenedores y puntos",
+            "textColor": "black"
+        },
+        {
+            "backgroundColor": "grises",
+            "linkUrl": "avisos.html",
+            "imageUrl": "/src/assets/files/economiacircular.svg",
+            "title": "Red de Economia Circular",
+            "textColor": "black"
+        },
+        {
+            "backgroundColor": "verde",
+            "linkUrl": "https://solicitudes-giro.cc.gob.ar/",
+            "imageUrl": "/src/assets/files/charlaseducativas.svg",
+            "title": "Solicitá Material para Reciclar",
+            "textColor": "black"
+        },
+        {
+            "backgroundColor": "amarillo",
+            "linkUrl": "chequea.html",
+            "imageUrl": "/src/assets/files/legislacion.svg",
+            "title": "Buscador de Materiales",
+            "textColor": "black"
+        },
+        {
+            "backgroundColor": "celeste",
+            "linkUrl": "avisos.html",
+            "imageUrl": "/src/assets/files/informesdegestion.svg",
+            "title": "Contenedores y puntos",
+            "textColor": "black"
+        },
+        {
+            "backgroundColor": "grises",
+            "linkUrl": "avisos.html",
+            "imageUrl": "/src/assets/files/megaphone.svg",
+            "title": "Red de Economia Circular",
+            "textColor": "black"
+        }
+    ]
+
+}
+    

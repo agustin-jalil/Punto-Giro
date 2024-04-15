@@ -1,0 +1,868 @@
+{
+    "catalogo": [
+        {
+            "residuo": "Aceites Minerales Usados",
+            "accion": "",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Derivado líquido de petroleo ",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Aceites Vegetales Usados",
+            "accion": "Estamos trabajando en puntos de acopio para que puedas acercar los residuos que requieren gestión especial.",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Compuesto orgánico líquido obtenido de fuentes vegetales ",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Acumuladores de ácido plomo",
+            "accion": "",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Baterías de autos ",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Adhesivo de toallitas femeninas",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Papel ",
+            "detalle": "Papel siliconado - laminado",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Aserrín",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de jardín",
+            "destino": "Compostaje / Biomasa para generación de energía/ disposición final"
+          },
+          {
+            "residuo": "Balde plástico de pintura",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Polietileno de alta densidad (HDPE)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Balde y palangana",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Polipropileno (PP) - Polietileno de alta densidad (HDPE)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Barbijos",
+            "accion": "Todos aquellos residuos que hayan tenido contacto con pacientes POSITIVOS covid 19 asilados en sus domicilios requieren manejo especial - Consultar los protocolos. ÚNÍCAMENTE PUEDE RECOLECTAR ESTE RESIDUO TRANSPORTE AUTORIZADO DE LA PROVINCIA. - Si el residuo se produce en un hogar / establecimiento donde no existan casos sospechosos o positivos de covid 19, depositar el residuo en bolsa NEGRA con los residuos Húmedos. ",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico + productos químicos",
+            "detalle": "Polipropileno (PP)",
+            "destino": "Según su procedencia puede requerir MANEJO ESPECIAL"
+          },
+          {
+            "residuo": "Biblioratos llenos de papel",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Papel ",
+            "detalle": "Pulpa de celulosa y agregados ",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Bidones",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Tereftalato de polietileno (PET) o Polipropileno (PP)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Birome ",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "Plástico, goma, metal y restos de tinta",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Bolsa de pan de molde",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Polietileno de baja densidad (LDPE)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Botella de aceIte ",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA. También podes utilizarla para guardar el aceite vegetal usado.",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico",
+            "detalle": "Tereftalato de polietileno (PET)",
+            "destino": "Si bien es un plástico reciclable, es muy difícil limpiar completamente los restos de aceite"
+          },
+          {
+            "residuo": "Botellas",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "plástico",
+            "detalle": "Tereftalato de polietileno (PET)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Cables ",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico y Metal",
+            "detalle": "generalmente de cobre o aluminio con un aislamiento o cubierta de plástico, termoplástico de PVC (policloruro de vinilo), PE (poliestireno) o PCP (policloropreno).",
+            "destino": "clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Cajas de cartón",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Cartón",
+            "detalle": "Celulosa (Varias capas de papel superpuesto)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Cajas de cartón sucio",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de cocina",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Cajas de pizza",
+            "accion": "Colocá la parte limpia y seca en la bolsa de residuos SECOS y la parte engrasada descartala con los residuos HÚMEDOS.",
+            "categoria": "Reciclable ",
+            "tipo": "Cartón",
+            "detalle": "Celulosa (Varias capas de papel superpuesto)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Calzado ",
+            "accion": "Si está en buenas condiciones te recomendamos donarlo - si está en malas condiciones pero se encuentra limpio y seco tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE. ",
+            "categoria": "Reciclable ",
+            "tipo": "Mezcla",
+            "detalle": "Tela (polar, algodon, satén), lona (algodon, lino), denim, nailon, materiales alternativos sintéticos (etileno y acetato de vinilo: gomo Eva), suela (PVC o TR, caucho o hule, cuero)",
+            "destino": "clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Cápsulas de cafe",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE. Consultar previamente el tipo de cápsula, algunos fabricantes se hacen cargo de este residuo. ",
+            "categoria": "Reciclable ",
+            "tipo": "Metal",
+            "detalle": "Aluminio",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Carbónicos",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Papel ",
+            "detalle": "Es un papel fino cubierto con una mezcla de la cera y pigmentos, principalmente negro de carbón,",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Cartón (NO laminado NI impreso) sucio con restos de alimentos ",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Cartón",
+            "detalle": "Celulosa (Varias capas de papel superpuesto)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Cartón corrugado",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Cartón",
+            "detalle": "Celulosa (Varias capas de papel superpuesto)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Cartuchos y tonners",
+            "accion": "Estamos trabajando en puntos de acopio para que puedas acercar los residuos que requieren gestión especial.",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Composición variable según fabricante, básicamente formado por resinas termoplásticas como el poliestireno, butilo, acetato de polivinilo, acrilato de estireno y copolímero de estireno, junto con resina de poliéster y pigmentos que son los que lo dotan de color.",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Cáscara de huevo",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de cocina",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Cáscaras de frutos secos",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de cocina",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "CDs - DVDs",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "plástico policarbonato, sumado a una capa reflectiva que puede ser de aluminio o incluso de oro, cubierta con laca y tintas",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Cepillo de dientes",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico",
+            "detalle": "Mezcla de distintos tipos de plástico",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Cera para depilar",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "",
+            "detalle": "Cera natural de abejas, resinas de pino, antioxidantes, pigmentos",
+            "destino": "Disposición Final"
+          },
+          {
+            "residuo": "Césped cortado",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de jardín",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Chapitas ",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Metal",
+            "detalle": "Acero libre de estaño y lámina electrolítica estañada tinplate, con un recubrimiento plástico.",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Chatarra",
+            "accion": "SI tenes chatarra para descartar, debes acercarla a la planta de tratamiento de residuos. Estamos trabajando en puntos de acopio para que puedas acercar la chatarra. Informate en las redes de Tu Capital sobre las campañas de descacharreo.",
+            "categoria": "Manejo Especial",
+            "tipo": "Mezcla ",
+            "detalle": "Residuos de gran volumen",
+            "destino": "Requiere manejo especial"
+          },
+          {
+            "residuo": "Chicle ",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico",
+            "detalle": "Acetato de polivinilo, o también la goma de xantano",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Colillas de cigarrillo",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "Acetato de celulosa + sustancias tóxicas que componen los cigarrillos (como por ejemplo, nicotina, alquitrán y metales pesados)",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Corcho sintético",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plásico",
+            "detalle": "Polietileno de baja densidad (LDPE)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Corteza de arboles",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de jardín",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Diarios y revistas",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Papel ",
+            "detalle": "Pulpa de celulosa y agregados ",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Empaque de las maquinas de afeitar",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Polybag",
+            "detalle": " (carcasa de plástico y fondo de cartón)",
+            "destino": "clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Encendedor ",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "Plástico, metal, acero y piedra de friccion",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Envase de alcohol etílico 96%",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Tereftalato de polietileno (PET)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Envase de cera para piel",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Metal",
+            "detalle": "Lata (acero inoxidable)",
+            "destino": "Disposición Final"
+          },
+          {
+            "residuo": "Envase de desodorante",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "Láminas de acero, aluminio, partes plásticas y de goma.",
+            "destino": "Si bien se podrían recuperar sus partes por separado, este procedimiento es muy complejo"
+          },
+          {
+            "residuo": "Envase de lavandina",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Tereftalato de polietileno (PET)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Envase de tintura para el pelo",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "aluminio, acero, plástico (PP), ",
+            "destino": "Disposición Final"
+          },
+          {
+            "residuo": "Envases - budineras - torteras",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Metal",
+            "detalle": "Aluminio",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Envases de fideos - galletitas - arroz",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico",
+            "detalle": "No suelen indicar el tipo de plástico",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Envases de shampoo, acondicionador, cremas faciales y corporales, desodorantes",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Polietileno de alta densidad (HDPE)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Envases de tetrabrik",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "Capas de papel - alumino y polietileno",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Envases para productos cosméticos (maquillaje y perfumería)",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla",
+            "detalle": "material variable: vidrio, papel, carton, metal, madera y plástico (elaborados con resinas o residuos de polimeros como polietileno de alta densidad (PEAD), polietileno tereftalato (PET) y cloruro de polivinilo (PVC)",
+            "destino": "A pesar de que el material es potencialmente reciclable, debido a la mezcla de los productos que contienen, actualmente no se cuenta con la tecnología para realizarlo."
+          },
+          {
+            "residuo": "Envases vacíos de fitosanitarios",
+            "accion": "",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Envases de herbicidas, fungicidas, insecticidas, etc. ",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Envoltorio de la manteca",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "Multilaminado: aluminio, polietileno y polipropileno",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Escobillón",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico",
+            "detalle": "La base del escobillón está compuesta de plástico PP (polipropileno) o PEAD (poliestireno de alta densidad), mientras que las cerdas están compuestas en su mayoría de PET o algunas de PP.",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Escombros ",
+            "accion": "Acerca el material a la planta de tratamiento. Estamos trabajando en puntos de acopio para que puedas acercar los escombros.",
+            "categoria": "Manejo Especial",
+            "tipo": "Inorgánico",
+            "detalle": "Residuos de construcción y demolición",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Esponja de cocina",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico",
+            "detalle": "Polímeros plásticos",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Esponja virulana",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Metal",
+            "detalle": "Lana de acero",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Fascos y botellas enteras",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE. * Si está roto depositalo en la bolsa NEGRA con los residuos HÚMEDOS, bien envuelto para evitar que los operarios se lastimen al manipularlo.  ",
+            "categoria": "Reciclable ",
+            "tipo": "Vidrio",
+            "detalle": "Arena de sílice (SiO2) carbonato de sodio (Na2CO3) y caliza (Ca CO3) por fusión a 1500°C",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Film",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Tereftalato de polietileno (PET) o Polipropileno (PP)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Filtros de café",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de cocina",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Folletos",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Papel ",
+            "detalle": "Pulpa de celulosa y agregados ",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Frascos y botellas rotos ",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA. Recordá identificarlo para evitar accidentes. ",
+            "categoria": "NoReciclable ",
+            "tipo": "Vidrio",
+            "detalle": "Arena de sílice (SiO2) carbonato de sodio (Na2CO3) y caliza (Ca CO3) por fusión a 1500°C",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Guantes de látex con polvo",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Goma",
+            "detalle": "Residuo de cocina/Látex natural y polvo de fécula de maíz",
+            "destino": "Disposición Final"
+          },
+          {
+            "residuo": "Guantes de látex sin polvo",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Goma",
+            "detalle": "Residuo limpieza/Látex natural con tratamiento copolímero (poliuretano)",
+            "destino": "Disposición Final"
+          },
+          {
+            "residuo": "Guantes de nitrilo",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico",
+            "detalle": "Residuo limpieza/Nitrilo: látex de caucho sintético obtenido a partir del copolímero Acrilo-nitrilo-Butadieno (NBR)",
+            "destino": "Disposición Final"
+          },
+          {
+            "residuo": "Guantes de plástico ",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico",
+            "detalle": "Residuo peluquería/Polietileno (PE)",
+            "destino": "Disposición Final"
+          },
+          {
+            "residuo": "Guías telefónicas",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Papel ",
+            "detalle": "Pulpa de celulosa y agregados ",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Hojas secas",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de jardín",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Lámparas de bajo consumo",
+            "accion": "",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Luminaria de bajo consumo que contienen gases de mercurio en su interior",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Latas de conserva",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Metal",
+            "detalle": "Acero y estaño",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Latas de gaseosa",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Metal",
+            "detalle": "Aluminio",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Latas de pintura ",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Metal",
+            "detalle": "Acero y estaño",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "LLaves",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Metal",
+            "detalle": "Bronce - cobre",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Maples de huevo (sin color)\n",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos SECOS, preferentemente en bolsa VERDE.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico/papel",
+            "detalle": "Residuo de cocina",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Maquinita de afeitar",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla",
+            "detalle": "Acero inoxidable, plástico, goma, tira lubricante (aloe vera)",
+            "destino": "Disposición Final"
+          },
+          {
+            "residuo": "Neumáticos de desecho",
+            "accion": "Estamos trabajando en puntos de acopio para que puedas acercar los residuos que requieren gestión especial.",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Compuestos de caucho y diversos elementos quimicos ",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Pañales ",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "Plástico, fibras, geles absorbentes y productos blanqueadores",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Pañuelos descartables",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Papel ",
+            "detalle": "Fibra de celulosa",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Papel blanco o de color (impreso en negro o color, con o sin ganchitos)",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Papel ",
+            "detalle": "Pulpa de celulosa y agregados ",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Papel de golosinas y galletitas",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Papel ",
+            "detalle": "Papel plastificado ",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Papel fotográfico",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Papel ",
+            "detalle": "Capa sensible de partículas de halogenuros de plata en gelatina y celulosa blanqueada ",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Pilas, baterías portátiles",
+            "accion": "Estamos trabajando en puntos de acopio para que puedas acercar los residuos que requieren gestión especial.",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Acumuladores de energía con contenido de elementos que resultan tóxicos para el ambiente y la salud como mercurio, cadmio, o níquel, entre otros. ",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Pinturas y solventes",
+            "accion": "",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Sustancias que pueden resultar tóxicas e inflamables",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Potes de helado",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Derivado de poliestireno (PS)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Potes de yogur y queso crema",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Polipropileno (PP)- Poliestireno (PS)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "RAEEs",
+            "accion": "Estamos trabajando en puntos de acopio para que puedas acercar los residuos que requieren gestión especial.",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Aparatos eléctricos y electrónicos en desuso *",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Ramas pequeñas",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de jardín",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Restos de carne ",
+            "accion": "Tenes que disponerlo en la bolsa NEGRA",
+            "categoria": "NoReciclable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de cocina",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Restos de frutas y hortalizas crudas o cocidas.",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de cocina",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Restos de plantas y flores",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de jardín",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Restos de poda ",
+            "accion": "Acerca el material a la planta de tratamiento. Estamos trabajando en puntos de acopio para que puedas acercar los restos de poda.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de jardín",
+            "destino": "Compostaje / Biomasa para generación de energía/ disposición final"
+          },
+          {
+            "residuo": "Restos de yerba, té y café.",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de cocina",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Rollo de cartón de papel higiénico o servilletas",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Cartón",
+            "detalle": "Celulosa (Varias capas de papel superpuesto)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Ropa ",
+            "accion": "Si está en buenas condiciones te recomendamos donarlo - si está en malas condiciones pero se encuentra limpio y seco tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE. ",
+            "categoria": "Reciclable ",
+            "tipo": "Fibra vegetal y sintética",
+            "detalle": "Telas de algodon, lino, lana, estambre, seda, poliéster, ",
+            "destino": "clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "sachet",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Polietileno de baja densidad (LDPE)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Semillas y carozos de frutas secas.",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de cocina",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Servilletas",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Papel ",
+            "detalle": "Fibra de celulosa",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Servilletas de papel de cocina",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de cocina",
+            "destino": "Compostaje "
+          },
+          {
+            "residuo": "Sillas, mesas, u otros muebles de jardín",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Polipropileno (PP)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Sobres de todo tipo de papel (con o sin etiqueta o ventana de celofán)",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Papel ",
+            "detalle": "Pulpa de celulosa y agregados ",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Tabletas para mosquitos",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Plástico + productos químicos",
+            "detalle": "termoevaporables de material plástico + producto químico repelente",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Tapabocas",
+            "accion": "Todos aquellos residuos que hayan tenido contacto con pacientes POSITIVOS covid 19 asilados en sus domicilios requieren manejo especial - Consultar los protocolos. ÚNÍCAMENTE PUEDE RECOLECTAR ESTE RESIDUO TRANSPORTE AUTORIZADO DE LA PROVINCIA. - Si el residuo se produce en un hogar / establecimiento donde no existan casos sospechosos o positivos de covid 19, depositar el residuo en bolsa NEGRA con los residuos Húmedos. ",
+            "categoria": "NoReciclable ",
+            "tipo": "Tela",
+            "detalle": "Diferentes tipos de tela y elástico.",
+            "destino": "Según su procedencia puede requerir MANEJO ESPECIAL"
+          },
+          {
+            "residuo": "Tapitas",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Polipropileno (PP)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Termómetros",
+            "accion": "",
+            "categoria": "Manejo Especial",
+            "tipo": "REGUs",
+            "detalle": "Dispositivo con contendio de mercurio ",
+            "destino": "Requiere MANEJO ESPECIAL (tratamiento y/o disposición final adecuada)"
+          },
+          {
+            "residuo": "Tickets (supermercado, cajero electronico, compras con tarjeta, etc.)",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA - Intenta evitar su generación- usá comprobantes digitales cuando sea posible.",
+            "categoria": "NoReciclable ",
+            "tipo": "Papel ",
+            "detalle": "Papel térmico y productos químicos para impresión",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Toallitas femeninas",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "Plástico, fibras, geles absorbentes y productos blanqueadores",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Tuvo de pasta dental",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Mezcla ",
+            "detalle": "Múltiples plásticos laminados, y en algunos casos también aluminio",
+            "destino": "Disposición final"
+          },
+          {
+            "residuo": "Vajilla descartable ",
+            "accion": "Tenes que disponerlo con los residuos SECOS preferentemente en bolsa VERDE ",
+            "categoria": "Reciclable ",
+            "tipo": "Plástico",
+            "detalle": "Tereftalato de polietileno (PET) - Polipropileno (PP)- Poliestireno (PS)",
+            "destino": "Reutilización - clasificación y acopio en la planta de tratamiento y venta para el reciclaje"
+          },
+          {
+            "residuo": "Vidrio industrial ventanas, parabrisas y otros ",
+            "accion": "Tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA ",
+            "categoria": "NoReciclable ",
+            "tipo": "Vidrio",
+            "detalle": "Arena de sílice (SiO2) carbonato de sodio (Na2CO3) y caliza (Ca CO3) por fusión a 1500°C",
+            "destino": "Si bien se puede realizar a nivel industrial, no se puede gestionar a nivel domiciliario "
+          },
+          {
+            "residuo": "Viruta",
+            "accion": "Lo podes COMPOSTAR. Si no haces compost domiciliario, tenes que disponerlo con los residuos HÚMEDOS, preferentemente en bolsa NEGRA.",
+            "categoria": "Compostable ",
+            "tipo": "Orgánico",
+            "detalle": "Residuo de jardín",
+            "destino": "Compostaje "
+          }
+    ]
+}

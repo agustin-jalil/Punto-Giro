@@ -1,0 +1,380 @@
+.PuntoGiro-Chequea input{
+    border: 2px solid #315150;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(245, 245, 220, 0.377);
+    outline: none;
+    width: 75vw;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    border-radius: 10px;
+
+}
+.PuntoGiro-Chequea input::placeholder {
+    color: #315150;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.PuntoGiro-Chequea input:focus::placeholder {
+    opacity: 0;
+}
+
+.PuntoGiro-Chequea input:focus {
+    border: 2px solid #315150;
+    box-shadow: 0px 0px 10px 0px #315150;
+}
+
+.PuntoGiro-Chequea section{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 10px;
+}
+
+.btn{
+    width: 20vw;
+    height: auto;
+    border-radius: 10px;
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.2s ease-in-out;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+  
+.btn-verde{
+    border: 2px solid  #006400;
+    background-color: #006400;
+    color: white;
+    
+}
+.btn-verde:focus,
+.btn-verde:hover {
+    background-color: #32CD32;
+    box-shadow: 0px 0px 10px 0px #006400;
+    border: 2px solid #006400;
+    color: white;
+}
+
+.btn-amarillo{
+    border: 2px solid  #ffde21;
+    color: black;
+    background-color: #ffde21;
+            
+}
+.btn-amarillo:focus,
+.btn-amarillo:hover{
+    background-color: #FFFF00;
+    box-shadow: 0px 0px 10px 0px #ffde21;
+    border: 2px solid  #ffde21;
+    color: black;
+}
+
+.btn-celeste{
+    border: 2px solid  #67ADF3;
+    color: white;
+    background-color: #67ADF3;              
+}
+.btn-celeste:focus,
+.btn-celeste:hover{
+    background-color: #9FDAFF;              
+    box-shadow: 0px 0px 10px 0px #67ADF3;
+    border: 2px solid  #67ADF3;
+    color: white;
+}
+
+.btn-gris{
+border: 2px solid  #414141;
+color: white;
+background-color: #414141;
+}
+.btn-gris:focus,
+.btn-gris:hover{
+background-color: #808080;
+box-shadow: 0px 0px 10px 0px #414141;
+border: 2px solid  #414141;
+color: white;
+}
+
+.cerrar-modal{
+border: 2px solid  #ac0000;
+color: #ff5833be;
+background-color: #8B0000;
+}
+.cerrar-modal:focus,
+.cerrar-modal:hover{
+background-color: #d10202;
+box-shadow: 0px 0px 10px 0px #8B0000;
+border: 2px solid  #8B0000;
+color: white;
+}
+
+.photo-grid{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 20px; /* Space between rows and columns */
+column-gap: 25px; /* Space between columns */
+}
+
+.photo-grid figure{
+display: flex;
+backdrop-filter: blur(50px);
+border-radius: 15px;
+transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+cursor: pointer;
+padding: 10px;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.photo-grid .Grid-img{
+width: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+.photo-grid figcaption{
+text-align: center;
+margin-top: 5px;
+font-style: italic;
+color: black;
+}
+
+@media screen and (max-width: 768px) {
+
+.photo-grid figure{
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.PuntoGiro-Chequea section {
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+}
+
+.btn {
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.item-container{
+    font-size:small;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px){
+
+}
+
+
+.PuntoGiro-Main-chequea{
+padding-block: 1rem;
+}
+
+.REGUs , 
+.Orgánico, 
+.Empaquete,
+.Plástico, 
+.plástico,
+.Metal, 
+.Mezcla,
+.Papel, 
+.Cartón
+{
+    backdrop-filter: blur(50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.REGUs , 
+.Orgánico, 
+.Empaquete{
+    background-color: #d8fcd8;
+    border: 2px solid rgb(94, 250, 94);
+    backdrop-filter: blur(25px);
+}
+
+.Plástico , 
+.plástico{
+    background-color: rgba(250, 249, 199, 0.952);
+    border: 2px solid #ffde21;
+}
+
+.Metal , 
+.Mezcla{
+    border: 2px solid #4da1f5;
+    color: black;
+    background-color: #dcedff;
+}
+
+.Papel, 
+.Cartón{
+    background-color: #a5a5a5;
+    border: #303030 2px solid;
+    box-shadow: 0px 0px 10px 0px #808080d3;
+    color: white;
+}
+
+.scale:hover{
+    transform: scale(1.01);
+}
+
+
+.Buscador-card{
+    display: flex;
+    justify-content: center; /* Horizontally center the card */
+    align-items: center; /* Vertically center the card */
+    height: 50vh; /* Set height to occupy full viewport height */
+    width: 98vw;
+}
+
+.card {
+    height: 70%;
+    padding: 2em; /* Add padding to the card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.modal {
+    display: none; /* Hide the modal by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+  /* Modal content */
+  .modal-content {
+      padding: 20px;
+      width: 80%;
+      height: 80%;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      overflow-y: auto;
+    }
+
+  .Modal-img{
+    max-height: 250px;
+  }
+
+  .modal-div-close{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .modal-open {
+    overflow: hidden;
+}
+
+
+
+.REGUs a{
+    border: 2px solid  #006400;
+    background-color: #006400;
+    color: white;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.REGUs a:focus,
+.REGUs a:hover {
+    background-color: #32CD32;
+    box-shadow: 0px 0px 10px 0px #006400;
+    border: 2px solid #006400;
+    color: white;
+}
+
+.Plástico a{
+    border: 2px solid  #ffde21;
+    color: black;
+    background-color: #ffde21;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+            
+}
+.Plástico a:focus,
+.Plástico a:hover{
+    background-color: #FFFF00;
+    box-shadow: 0px 0px 10px 0px #ffde21;
+    border: 2px solid  #ffde21;
+    color: black;
+}
+
+.Metal a{
+    border: 2px solid  #67ADF3;
+    color: white;
+    background-color: #67ADF3;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;           
+}
+
+.Metal a:focus,
+.Metal a:hover{
+    background-color: #9FDAFF;              
+    box-shadow: 0px 0px 10px 0px #67ADF3;
+    border: 2px solid  #67ADF3;
+    color: white;
+}
+
+.Cartón a,
+.Papel a{
+    border: 2px solid  #414141;
+    color: white;
+    background-color: #414141;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Cartón a:focus,
+.Cartón a:hover,
+.Cartón a:focus,
+.Cartón a:hover{
+    background-color: #808080;
+    box-shadow: 0px 0px 10px 0px #414141;
+    border: 2px solid  #414141;
+    color: white;
+}

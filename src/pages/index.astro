@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import  {DynamicSectionHome}   from '../components/DynamicComponents.jsx';
+import  DynamicFooter from "../components/DynamicComponents.jsx"
+import datos from '../components/data/sectionHomeData.json';
+import links from '../components/data/footersData.json';
+export const meta = {
+    title: 'Punto Giro'
+};
+
+---
+
+<Layout title={meta.title}>
+    <main class="PuntoGiro-Main">
+        <div class="PuntoGiro-Section-Home">
+            <DynamicSectionHome datos={datos.sectionHomeData} /> {/* Pass sectionHomeData as a prop to DynamicSectionHome */}
+        </div>
+        <aside class="PuntoGiro-Footer-Aside">
+            <div class="PuntoGiro-Footer-Secundario">
+                <h4 class="f-m">Contactanos</h4>
+                <DynamicFooter links={links.footerAside} />
+            </div>
+        </aside>
+    </main>
+</Layout>

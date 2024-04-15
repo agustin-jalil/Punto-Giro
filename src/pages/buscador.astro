@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import items from "../components/data/buscadorItemsData.json"
+import  {DynamicBuscadorItems}  from "../components/DynamicComponents";
+import BuscadorInput  from "../components/Reusable";
+
+export const meta = {
+  title: "Busca Materiales para Reciclar",
+};
+
+console.log(items);
+---
+
+<Layout title={meta.title}>
+    <main class="PuntoGiro-Main-chequea">
+        <BuscadorInput client:only items = {items.catalogo}/>
+  </main>
+</Layout>

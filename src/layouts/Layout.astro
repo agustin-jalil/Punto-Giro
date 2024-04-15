@@ -1,0 +1,49 @@
+---
+interface Props {
+	title: string;
+}
+
+import Header from '../components/Header.jsx'
+import Footer from '../components/Footer.jsx'
+import '../assets/css/index.css'
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../assets/files/giro.png">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="/src/assets/files/giro.png" />
+		<!-- Open Graph Meta Tags for Facebook and LinkedIn -->
+		<meta property="og:title" content="Punto Giro" />
+		<meta property="og:description" content="Informate sobre todas las posibles formas de reciclar" />
+		<meta property="og:image" content="https://agustin-jalil.github.io/Punto-Giro/giro.png" />
+		<meta property="og:url" content="https://agustin-jalil.github.io/Punto-Giro/index.html" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Punto Giro" />
+		<!-- Twitter Card Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Punto Giro" />
+		<meta name="twitter:description" content="Informate sobre todas las posibles formas de reciclar" />
+		<meta name="twitter:image" content="https://agustin-jalil.github.io/Punto-Giro/giro.png" />
+		<meta name="twitter:site" content="" />
+		<!-- WhatsApp Meta Tags -->
+		<meta property="og:site_name" content="Punto Giro" />
+		<!-- Instagram Meta Tags -->
+		<meta property="og:type" content="website" />
+		<!-- TikTok Meta Tags -->
+		<meta property="tiktok:site" content="" />
+		<meta property="tiktok:url" content="https://agustin-jalil.github.io/Punto-Giro/index.html" />
+		<meta property="tiktok:title" content="Punto Giro" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<Header/>
+			<slot />
+		<Footer/>
+	</body>
+</html>
