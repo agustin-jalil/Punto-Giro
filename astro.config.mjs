@@ -7,6 +7,6 @@ export default defineConfig({
   integrations: [
     react()
   ],
-  site: 'https://agustin-jalil.github.io',
-  base: 'https://agustin-jalil.github.io',
+  site: 'https://agustin-jalil.github.io/Punto-Giro',
+  base: 'https://agustin-jalil.github.io/Punto-Giro',
 });
