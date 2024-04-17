@@ -8,5 +8,5 @@ export default defineConfig({
     react()
   ],
   site: 'https://agustin-jalil.github.io',
-  base: '/Punto-Giro/',
+  base: 'https://agustin-jalil.github.io',
 });
