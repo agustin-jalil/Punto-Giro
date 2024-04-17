@@ -18,7 +18,7 @@ export function DynamicSectionHome({ datos }) {
     );
 }
 
-export default function DynamicFooter({ links }) {
+export default function DynamicFooter( { links } ) {
     return (
         <>
             {links.map((item, index) => (

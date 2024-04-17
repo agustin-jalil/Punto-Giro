@@ -4,56 +4,56 @@
         {
             "backgroundColor": "verde",
             "linkUrl": "https://solicitudes-giro.cc.gob.ar/",
-            "imageUrl": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/planet.svg",
+            "imageUrl": "/src/assets/files/planet.svg",
             "title": "Solicitá Material para Reciclar",
             "textColor": "black"
         },
         {
             "backgroundColor": "amarillo",
             "linkUrl": "buscador",
-            "imageUrl": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/idea.svg",
+            "imageUrl": "/src/assets/files/idea.svg",
             "title": "Buscador de Materiales",
             "textColor": "black"
         },
         {
             "backgroundColor": "celeste",
             "linkUrl": "contenedores",
-            "imageUrl": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/contenedoresypuntos.svg",
+            "imageUrl": "/src/assets/files/contenedoresypuntos.svg",
             "title": "Contenedores y puntos",
             "textColor": "black"
         },
         {
             "backgroundColor": "grises",
             "linkUrl": "",
-            "imageUrl": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/economiacircular.svg",
+            "imageUrl": "/src/assets/files/economiacircular.svg",
             "title": "Red de Economia Circular",
             "textColor": "black"
         },
         {
             "backgroundColor": "verde",
             "linkUrl": "https://solicitudes-giro.cc.gob.ar/",
-            "imageUrl": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/charlaseducativas.svg",
+            "imageUrl": "/src/assets/files/charlaseducativas.svg",
             "title": "Solicitá Material para Reciclar",
             "textColor": "black"
         },
         {
             "backgroundColor": "amarillo",
             "linkUrl": "",
-            "imageUrl": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/legislacion.svg",
+            "imageUrl": "/src/assets/files/legislacion.svg",
             "title": "Buscador de Materiales",
             "textColor": "black"
         },
         {
             "backgroundColor": "celeste",
             "linkUrl": "",
-            "imageUrl": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/informesdegestion.svg",
+            "imageUrl": "/src/assets/files/informesdegestion.svg",
             "title": "Contenedores y puntos",
             "textColor": "black"
         },
         {
             "backgroundColor": "grises",
             "linkUrl": "",
-            "imageUrl": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/megaphone.svg",
+            "imageUrl": "/src/assets/files/megaphone.svg",
             "title": "Red de Economia Circular",
             "textColor": "black"
         }

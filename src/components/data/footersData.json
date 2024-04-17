@@ -2,54 +2,54 @@
     "footer": [
         {
             "linkUrl": "https://www.facebook.com/girocatamarcacapital/?locale=es_LA",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/facebook.svg",
+            "imageSrc": "/src/assets/files/facebook.svg",
             "altText": "Facebook"
         },
         {
             "linkUrl": "https://www.instagram.com/girocatamarcacapital/?ref=9gag&hl=am-et",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/instagram.svg",
+            "imageSrc": "/src/assets/files/instagram.svg",
             "altText": "Instagram"
         },
         {
             "linkUrl": "https://www.youtube.com/watch?v=OBDjnrLQSQk&ab_channel=CatamarcaCapital",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/youtube.svg",
+            "imageSrc": "/src/assets/files/youtube.svg",
             "altText": "Youtube"
         },
         {
             "linkUrl": "https://mail.google.com/mail/?view=cm&fs=1&to=girocatamarcacapital@gmail.com&su=Deja%20tu%20duda",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/email.svg",
+            "imageSrc": "/src/assets/files/email.svg",
             "altText": "Gmail"
         },
         {
             "linkUrl": "https://wa.me/1234567890",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/wsp.svg",
+            "imageSrc": "/src/assets/files/wsp.svg",
             "altText": "Whatsapp"
         }
     ],
     "footerAside": [
         {
             "linkUrl": "https://www.facebook.com/girocatamarcacapital/?locale=es_LA",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/facebook.svg",
+            "imageSrc": "/src/assets/files/facebook.svg",
             "altText": "Facebook"
         },
         {
             "linkUrl": "https://www.instagram.com/girocatamarcacapital/?ref=9gag&hl=am-et",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/instagram.svg",
+            "imageSrc": "/src/assets/files/instagram.svg",
             "altText": "Instagram"
         },
         {
             "linkUrl": "https://www.youtube.com/watch?v=OBDjnrLQSQk&ab_channel=CatamarcaCapital",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/youtube.svg",
+            "imageSrc": "/src/assets/files/youtube.svg",
             "altText": "Youtube"
         },
         {
             "linkUrl": "https://mail.google.com/mail/?view=cm&fs=1&to=girocatamarcacapital@gmail.com&su=Deja%20tu%20duda",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/email.svg",
+            "imageSrc": "/src/assets/files/email.svg",
             "altText": "Gmail"
         },
         {
             "linkUrl": "https://wa.me/1234567890",
-            "imageSrc": "https://agustin-jalil.github.io/Punto-Giro/src/assets/files/wsp.svg",
+            "imageSrc": "/src/assets/files/wsp.svg",
             "altText": "Whatsapp"
         }
     ]
