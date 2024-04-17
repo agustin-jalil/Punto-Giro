@@ -8,5 +8,6 @@ export default defineConfig({
     react()
   ],
   site: 'https://agustin-jalil.github.io/Punto-Giro/',
-  base: 'Punto-Giro',
+  base: '/root',
+  publicDir: '/src/assets/files/'
 });
